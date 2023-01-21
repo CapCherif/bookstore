@@ -1,0 +1,100 @@
+body{
+    background-color: rgb(242, 242, 242);
+    font-family: sans-serif;
+}
+
+nav{
+    max-width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+#logo{
+    font-size: 50px;
+    cursor: pointer;
+    transition: 0.2s;
+    color: rgb(31, 182, 246);
+}
+#logo:hover{
+    color: rgb(17, 153, 212);
+    transition: 0.2s;
+}
+
+nav span i{
+    margin-right: 5px;
+    margin-left: 10px;
+}
+nav span:hover{
+    cursor:pointer;
+    color: orange;
+    transition: 0.2s;
+}
+
+#container{
+    max-width: 800px;
+    margin: 80px auto 0px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px rgb(204, 204, 204);
+}
+.book{
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(210, 210, 210) ;
+}
+.book h3{
+    color: rgb(0, 140, 255);
+}
+.book p{
+    color: gray;
+}
+.book div {
+    display: flex;
+    justify-content: right;
+}
+.book .fa-trash{
+    color: red;
+}
+.book .fa-bars{
+    color: rgb(0, 145, 255);
+    margin-right: 10px ;
+    cursor: pointer;
+}
+.fa-trash{
+    color: rgb(157, 20, 20);
+    cursor: pointer;
+}
+.champ{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 10px 0px;
+}
+#filtrer input, #filtrer select{
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid rgb(190, 190, 190);
+}
+#filtrer button{
+    background-color: rgb(11, 155, 203);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 7px ;
+}
+#addform input, textarea{
+    width: 250px;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid rgb(180, 180, 180);
+}
+.success{
+    padding: 8px 0px;
+    background-color: rgb(197, 247, 197);
+    color: rgb(7, 68, 7);
+    text-align: center;
+    margin-top: 10px;
+    display: none;
+}
